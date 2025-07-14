@@ -31,4 +31,3 @@
 		steps = <96>;
 		status = "okay";			
 	};
-};
