@@ -34,4 +34,4 @@ right_encoder: encoder_right {
 		steps = <96>;
 		status = "okay";				
 	};
-};
+
