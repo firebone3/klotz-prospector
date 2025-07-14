@@ -19,6 +19,12 @@
         rows = <0>;
         events = <0>;
     };
+	sensors {
+	compatible = "zmk,keymap-sensors";	
+	sensors = <&left_encoder &right_encoder>; 
+		triggers-per-rotation = <24>;
+	};
+
 	default_transform: keymap_transform {
 	compatible = "zmk,matrix-transform";
 	columns = <10>;
